@@ -1,4 +1,14 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
+source "https://rubygems.org"
 
-# Specify your gem's dependencies in simple_form_materialize.gemspec
 gemspec
+
+gem "minitest-ci"
+gem "rails", "~> 5.0.0"
+gem "rubocop"
+gem "simplecov"
+gem "yard"
+
+group :test do
+  gem "codeclimate-test-reporter", require: false
+end
