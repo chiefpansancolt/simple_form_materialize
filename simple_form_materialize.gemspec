@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "Generator for Simple form config Materialized"
   spec.description   = "This Gem provides a generator for a Materialized " \
                        "simple_form config file"
-  spec.homepage      = "https://github.com/techgurupezza/simple_form_materialize"
+  spec.homepage      = "https://techgurupezza.github.io/simple_form_materialize/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split("\n")
