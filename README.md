@@ -8,7 +8,7 @@
 [![Gem](https://img.shields.io/gem/dt/simple_form_materialize.svg?style=flat-square)](https://rubygems.org/gems/simple_form_materialize)
 
 
-Devise Materialize gem is here to generate you devise view in a materialize styled format with or w/o simple_form.
+Simple Form Materialize is here to help generate your configuration needed to using simple form with materialized styles.
 This gem is not intended to live forever in your gemfile. It must be in your gemfile to load the resources needed from the generator.
 Below in the installation section will detail out which gems to install for all to work.
 
