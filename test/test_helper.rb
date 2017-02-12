@@ -28,4 +28,4 @@ end
 
 # For generators
 require "rails/generators/test_case"
-require "generators/devise_materialize/install_generator"
+require "generators/simple_form_materialize/install_generator"
