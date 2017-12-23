@@ -183,25 +183,24 @@ SimpleForm.setup do |config|
     b.use :input
     b.use :hint, wrap_with: { tag: "span", class: "help-text" }
   end
-
   # File Upload
-  config.wrappers :materialize_file_input,
-                  tag: "div", class: "file-field input-field col s12" do |b|
-    # Form Extensions
+  config.wrappers :materialize_file_input, tag: 'div', class: 'file-field input-field col s12' do |b|
     b.use :html5
+    b.optional :readonly
 
-    # Form Components
-    b.wrapper tag: :div, class: "btn" do |ba|
-      ba.use :tag, tag: :span, text: :label_text
-      ba.use :input
+    b.wrapper :button_wrapper, tag: 'div', class: 'btn' do |button_wrapper|
+      button_wrapper.use :label_text, wrap_with: { tag: :span }
+      button_wrapper.use :input
     end
-    b.wrapper tag: :div, class: "file-path-wrapper" do |ba|
-      ba.use :tag, tag: :input, class: "file-path validate", type: "text",
-                   placeholder: "Browse...", error_class: "invalid"
+
+    b.wrapper :path_validate, tag: 'div', class: 'file-path-wrapper' do |path_validate_wrapper|
+      path_validate_wrapper.wrapper :path_validate_input, tag: 'input', class: 'file-path validate', type: 'text' do
+      end
     end
-    b.use :hint, wrap_with: { tag: "span", class: "help-text" }
+
+    b.use :hint,  wrap_with: { tag: :span, class: 'help-block' }
+    b.use :error, wrap_with: { tag: :span, class: 'error-block' }
   end
-
   # Multiple File Upload
   config.wrappers :materialize_multiple_file_input,
                   tag: "div", class: "file-field input-field col s12" do |b|

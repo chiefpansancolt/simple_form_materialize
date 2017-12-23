@@ -1,4 +1,8 @@
-$(document).ready ->
+document.addEventListener 'turbolinks:load', ->
+  $('.slider').slider();
+  $('.carousel').carousel();
+  $('.dropdown-button').dropdown()
+  $('.button-collapse').sideNav()
   $('input, textarea').characterCounter()
   $('textarea').trigger('autoresize')
   $('select').material_select()
