@@ -4,7 +4,7 @@
 [![CircleCI](https://img.shields.io/circleci/project/github/techgurupezza/simple_form_materialize.svg?style=flat-square)](https://circleci.com/gh/techgurupezza/simple_form_materialize)
 [![Maintainability](https://api.codeclimate.com/v1/badges/aa4da7ff94af7db3bc66/maintainability)](https://codeclimate.com/github/techgurupezza/simple_form_materialize/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/aa4da7ff94af7db3bc66/test_coverage)](https://codeclimate.com/github/techgurupezza/simple_form_materialize/test_coverage)
-[![Gemnasium](https://img.shields.io/gemnasium/techgurupezza/simple_form_materialize.svg?style=flat-square)]()
+[![Dependency Status](https://gemnasium.com/badges/github.com/techgurupezza/simple_form_materialize.svg)](https://gemnasium.com/github.com/techgurupezza/simple_form_materialize)
 [![Gem](https://img.shields.io/gem/dt/simple_form_materialize.svg?style=flat-square)](https://rubygems.org/gems/simple_form_materialize)
 
 
