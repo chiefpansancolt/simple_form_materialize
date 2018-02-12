@@ -1,5 +1,13 @@
 # Change Log
 
+## v1.1.1
+
+#### Features
+- Upgrade circleci to support 2.5, 2.4, 2.3, and 2.2 ruby testing
+
+#### Bugs
+- N/A
+
 ## v1.1.0
 
 #### Features
