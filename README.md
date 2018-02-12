@@ -20,7 +20,7 @@ gem "materialize-sass"
 gem "material_icons"
 gem "simple_form"
 
-gem "simple_form_materialize", "~>1.1.0"
+gem "simple_form_materialize", "~>1.1.1"
 ```
 
 ## Usage
