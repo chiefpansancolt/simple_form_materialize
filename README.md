@@ -1,12 +1,10 @@
 # Simple Form Materialize
 
-[![Gem](https://img.shields.io/gem/v/simple_form_materialize.svg?style=flat-square)](https://rubygems.org/gems/simple_form_materialize)
-[![CircleCI](https://img.shields.io/circleci/project/github/techgurupezza/simple_form_materialize.svg?style=flat-square)](https://circleci.com/gh/techgurupezza/simple_form_materialize)
+[![CircleCI](https://circleci.com/gh/techgurupezza/simple_form_materialize.svg?style=svg)](https://circleci.com/gh/techgurupezza/simple_form_materialize)
 [![Maintainability](https://api.codeclimate.com/v1/badges/aa4da7ff94af7db3bc66/maintainability)](https://codeclimate.com/github/techgurupezza/simple_form_materialize/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/aa4da7ff94af7db3bc66/test_coverage)](https://codeclimate.com/github/techgurupezza/simple_form_materialize/test_coverage)
-[![Dependency Status](https://gemnasium.com/badges/github.com/techgurupezza/simple_form_materialize.svg)](https://gemnasium.com/github.com/techgurupezza/simple_form_materialize)
 [![Gem](https://img.shields.io/gem/dt/simple_form_materialize.svg?style=flat-square)](https://rubygems.org/gems/simple_form_materialize)
-
+[![Gem](https://img.shields.io/gem/v/simple_form_materialize.svg?style=flat-square)](https://rubygems.org/gems/simple_form_materialize)
 
 Simple Form Materialize is here to help generate your configuration needed to using simple form with materialized styles.
 This gem is not intended to live forever in your gemfile. It must be in your gemfile to load the resources needed from the generator.

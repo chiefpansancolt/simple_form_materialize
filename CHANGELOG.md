@@ -3,11 +3,11 @@
 ## v1.1.0
 
 #### Features
-- Various Enhancements to the repo (Issue #4)
+- Various Enhancements to the repo (#4)
 
 #### Bugs
-- Fix Input upload (Issue #3)
-- Resolve dependency Issues (Issue #1)
+- Fix Input upload (#3)
+- Resolve dependency Issues (#1)
 
 ## v1.0.1
 - Fix ReadMe typos
