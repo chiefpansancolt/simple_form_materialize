@@ -83,6 +83,7 @@ build_steps:
   - &store_test_results
     store_test_results:
       path: test/reports
+
 jobs:
   test_ruby_2_6:
     <<: *ruby-2-6
@@ -141,7 +142,7 @@ jobs:
 
 workflows:
   version: 2
-  ruby-versions-and-test:
+  build-and-test:
     jobs:
       - test_ruby_2_6
       - test_ruby_2_5
