@@ -1,8 +1,8 @@
 # Simple Form Materialize
 
-[![CircleCI](https://circleci.com/gh/techgurupezza/simple_form_materialize.svg?style=svg)](https://circleci.com/gh/techgurupezza/simple_form_materialize)
-[![Maintainability](https://api.codeclimate.com/v1/badges/aa4da7ff94af7db3bc66/maintainability)](https://codeclimate.com/github/techgurupezza/simple_form_materialize/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/aa4da7ff94af7db3bc66/test_coverage)](https://codeclimate.com/github/techgurupezza/simple_form_materialize/test_coverage)
+[![CircleCI](https://circleci.com/gh/chiefpansancolt/simple_form_materialize.svg?style=svg)](https://circleci.com/gh/chiefpansancolt/simple_form_materialize)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2cc5ded694e91439568a/maintainability)](https://codeclimate.com/github/chiefpansancolt/simple_form_materialize/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/2cc5ded694e91439568a/test_coverage)](https://codeclimate.com/github/chiefpansancolt/simple_form_materialize/test_coverage)
 [![Gem](https://img.shields.io/gem/dt/simple_form_materialize.svg?style=flat-square)](https://rubygems.org/gems/simple_form_materialize)
 [![Gem](https://img.shields.io/gem/v/simple_form_materialize.svg?style=flat-square)](https://rubygems.org/gems/simple_form_materialize)
 
