@@ -61,6 +61,9 @@ AllCops:
     - 'vendor/**/*'
     - '.git/**/*'
     - 'bin/bundle'
+    - 'lib/generators/templates/**/*'
+    - 'test/rails_app/**/*'
+    - 'test/tmp/**/*'
   DefaultFormatter: progress
   DisplayCopNames: true
   DisplayStyleGuide: false

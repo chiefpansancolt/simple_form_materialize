@@ -4,7 +4,7 @@ require "test_helper"
 
 class InstallGeneratorTest < Rails::Generators::TestCase
   tests SimpleFormMaterialize::InstallGenerator
-  destination File.expand_path("../../tmp", __FILE__)
+  destination File.expand_path("../tmp", __dir__)
   setup :prepare_destination
 
   test "assert files created" do

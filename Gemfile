@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
 gemspec
 
 gem "minitest-ci"
@@ -9,4 +11,5 @@ gem "rails"
 gem "rubocop"
 gem "rubocop-performance"
 gem "simplecov"
+gem "simplecov-material", github: "chiefpansancolt/simplecov-material"
 gem "yard"

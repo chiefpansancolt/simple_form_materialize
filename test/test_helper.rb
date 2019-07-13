@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
 require "simplecov"
+require "simplecov-material"
 
-SimpleCov.formatter = SimpleCov::Formatter::HTMLFormatter
+SimpleCov.formatter = SimpleCov::Formatter::MaterialFormatter
 
 SimpleCov.start do
   add_filter "/test/"
@@ -13,7 +14,7 @@ SimpleCov.minimum_coverage_by_file 90
 SimpleCov.minimum_coverage 90
 
 ENV["RAILS_ENV"] = "test"
-$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
+$LOAD_PATH.unshift File.expand_path("../lib", __dir__)
 
 require "simple_form_materialize"
 require "rails_app/config/environment"
