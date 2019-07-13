@@ -4,12 +4,9 @@ source "https://rubygems.org"
 
 gemspec
 
+gem "minitest-ci"
 gem "rails"
 gem "rubocop"
+gem "rubocop-performance"
 gem "simplecov"
 gem "yard"
-
-group :test do
-  gem "codeclimate-test-reporter", require: false
-  gem "minitest-ci"
-end

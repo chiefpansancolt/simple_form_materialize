@@ -1,8 +1,8 @@
-# coding: utf-8
 # frozen_string_literal: true
-lib = File.expand_path('../lib', __FILE__)
+
+lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'simple_form_materialize/version'
+require "simple_form_materialize/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "simple_form_materialize"
@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "Generator for Simple form config Materialized"
   spec.description   = "This Gem provides a generator for a Materialized " \
                        "simple_form config file"
-  spec.homepage      = "https://techgurupezza.github.io/simple_form_materialize/"
+  spec.homepage      = "https://chiefpansancolt.github.io/simple_form_materialize/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split("\n")
@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.2"
   spec.required_rubygems_version = "> 1.3.1"
 
-  spec.add_dependency "railties", ">= 4.1.0", "< 5.2"
+  spec.add_dependency "railties", ">= 4.1.0", "< 7"
 end
