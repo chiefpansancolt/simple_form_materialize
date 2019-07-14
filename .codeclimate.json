@@ -71,6 +71,7 @@
 	"exclude_patterns": [
     "**/public/",
 		"**/node_modules/",
-		"**/*.d.ts"
+		"**/*.d.ts",
+    "lib/generators/templates/**/*"
 	]
 }
