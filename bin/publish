@@ -51,7 +51,6 @@ FileUtils.chdir APP_ROOT do
   File.write("lib/simple_form_materialize/version.rb", contents)
 
   system! "git add lib/simple_form_materialize/version.rb"
-  system! "git add package.json"
 
   puts "== Committing updated files =="
   system! "git commit -m 'Version bump to #{joined_version}'"
