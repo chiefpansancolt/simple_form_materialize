@@ -3,8 +3,7 @@
 [![CircleCI](https://circleci.com/gh/chiefpansancolt/simple_form_materialize.svg?style=svg)](https://circleci.com/gh/chiefpansancolt/simple_form_materialize)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2cc5ded694e91439568a/maintainability)](https://codeclimate.com/github/chiefpansancolt/simple_form_materialize/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2cc5ded694e91439568a/test_coverage)](https://codeclimate.com/github/chiefpansancolt/simple_form_materialize/test_coverage)
-[![Gem](https://img.shields.io/gem/dt/simple_form_materialize.svg?style=flat-square)](https://rubygems.org/gems/simple_form_materialize)
-[![Gem](https://img.shields.io/gem/v/simple_form_materialize.svg?style=flat-square)](https://rubygems.org/gems/simple_form_materialize)
+[![Gem Version](https://badge.fury.io/rb/simple_form_materialize.svg)](https://badge.fury.io/rb/simple_form_materialize)
 
 Simple Form Materialize is here to help generate your configuration needed to using simple form with materialized styles.
 This gem is not intended to live forever in your gemfile. It must be in your gemfile to load the resources needed from the generator.

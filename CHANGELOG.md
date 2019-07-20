@@ -6,10 +6,9 @@
 - Upgrade circleci to support 2.6 ruby testing
 - Drop 2.2 support for ruby
 - Overall Repo updates
-- Update Ralities support to be upto version 7
 
 #### Bugs
-- N/A
+- Update Ralities support to be upto version 7 (#7)
 
 ## [1.1.1](https://github.com/chiefpansancolt/simple_form_materialize/releases/tag/v1.1.1)
 
