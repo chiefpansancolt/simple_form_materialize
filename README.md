@@ -14,6 +14,7 @@ Below in the installation section will detail out which gems to install for all 
 Add these lines to your application's Gemfile:
 
 ```ruby
+
 # Required gems so you don't have to add files manually
 gem "materialize-sass"
 gem "material_icons"
@@ -27,11 +28,14 @@ gem "simple_form_materialize", "~>1.1.1"
 [simple_form](https://github.com/plataformatec/simple_form), [materialize-sass](https://github.com/mkhairi/materialize-sass) and [material_icons](https://github.com/Angelmmiguel/material_icons) are required in your gemfile to enable the views to generate without error and in the proper style.
 
 ```bash
-$ rails g simple_form_materialize:install
+
+< rails g simple_form_materialize:install
 ```
+
 This will generate your two config files and javascript file of initializers
 
 ```
+
 your_project_name/
 ├─ app/
 |   └─ assets/
@@ -46,7 +50,7 @@ your_project_name/
 
 ## Change Log
 
-Check out the [Change Log](https://github.com/techgurupezza/simple_form_materialize/blob/master/CHANGELOG.md) for new features/bug fixes per release of a new version.
+Check out the [Change Log](https://github.com/chiefpansancolt/simple_form_materialize/blob/master/CHANGELOG.md) for new features/bug fixes per release of a new version.
 
 ## Development
 
@@ -56,10 +60,10 @@ To install this gem onto your local machine, run `bundle exec rake build`. To re
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/techgurupezza/simple_form_materialize. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/chiefpansancolt/simple_form_materialize](https://github.com/chiefpansancolt/simple_form_materialize). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-1. Fork Repo and create new branch
-2. Once all is changed and committed create a pull request.
+- Fork Repo and create new branch
+- Once all is changed and committed create a pull request.
 
 **Ensure all merge conflicts are fixed and CI is passing.**
 
