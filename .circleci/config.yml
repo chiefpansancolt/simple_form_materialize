@@ -37,15 +37,6 @@ ruby_versions:
           BUNDLE_RETRY: 3
           RAILS_ENV: test
 
-  - &ruby-2-2
-    working_directory: ~/simple_form_materialize
-    docker:
-      - image: circleci/ruby:2.2.10
-        environment:
-          BUNDLE_JOBS: 3
-          BUNDLE_RETRY: 3
-          RAILS_ENV: test
-
 build_steps:
   - &bundle_install
     run:

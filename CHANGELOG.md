@@ -1,6 +1,17 @@
 # Change Log
 
-## v1.1.1
+## [1.2.0](https://github.com/chiefpansancolt/simple_form_materialize/releases/tag/1.2.0)
+
+#### Features
+- Upgrade circleci to support 2.6 ruby testing
+- Drop 2.2 support for ruby
+- Overall Repo updates
+- Update Ralities support to be upto version 7
+
+#### Bugs
+- N/A
+
+## [1.1.1](https://github.com/chiefpansancolt/simple_form_materialize/releases/tag/v1.1.1)
 
 #### Features
 - Upgrade circleci to support 2.5, 2.4, 2.3, and 2.2 ruby testing
@@ -8,7 +19,7 @@
 #### Bugs
 - N/A
 
-## v1.1.0
+## [1.1.0](https://github.com/chiefpansancolt/simple_form_materialize/releases/tag/v1.1.0)
 
 #### Features
 - Various Enhancements to the repo (#4)
@@ -17,10 +28,10 @@
 - Fix Input upload (#3)
 - Resolve dependency Issues (#1)
 
-## v1.0.1
+## [1.0.1](https://github.com/chiefpansancolt/simple_form_materialize/releases/tag/v1.0.1)
 - Fix ReadMe typos
 
-## v1.0.0
+## [1.0.0](https://github.com/chiefpansancolt/simple_form_materialize/releases/tag/v1.0.0)
 
 #### Features
 - Generate Materialize Configuration for Simple Form
