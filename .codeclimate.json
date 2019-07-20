@@ -75,6 +75,7 @@
     "**/public/",
 		"**/node_modules/",
 		"**/*.d.ts",
-    "lib/generators/templates/**/*"
+    "lib/generators/templates/**/*",
+    "test/rails_app/**/*"
 	]
 }
