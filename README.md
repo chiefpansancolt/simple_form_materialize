@@ -1,5 +1,7 @@
 # Simple Form Materialize
 
+NOTE: This repo is not maintained anymore
+
 [![CircleCI](https://circleci.com/gh/chiefpansancolt/simple_form_materialize.svg?style=svg)](https://circleci.com/gh/chiefpansancolt/simple_form_materialize)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2cc5ded694e91439568a/maintainability)](https://codeclimate.com/github/chiefpansancolt/simple_form_materialize/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2cc5ded694e91439568a/test_coverage)](https://codeclimate.com/github/chiefpansancolt/simple_form_materialize/test_coverage)
